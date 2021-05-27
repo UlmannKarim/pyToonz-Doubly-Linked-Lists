@@ -53,7 +53,7 @@ class PyToonz:
         if self.size == 0:
             return None
         else:
-            return "Current track: " + self.selector.element
+            return self.selector.element
 
     def add_after(self, track):
         if self.length() == 0:  # if list is empty add to list using normal method
