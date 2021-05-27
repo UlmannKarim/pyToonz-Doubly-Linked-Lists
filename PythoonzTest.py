@@ -1,3 +1,5 @@
+# author Karim Ulmann
+
 from pytoonz import *
 
 playlist = PyToonz()
